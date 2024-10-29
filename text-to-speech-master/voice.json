@@ -1,0 +1,42 @@
+[
+  {
+    "code": "en-us",
+    "info": [
+      {
+        "name": "Linda",
+        "gender": "Female",
+        "default": "yes"
+      },
+      {
+        "name": "Amy",
+        "gender": "Female",
+        "default": "no"
+      },
+      {
+        "name": "Mary",
+        "gender": "Female",
+        "default": "no"
+      },
+      {
+        "name": "John",
+        "gender": "Male",
+        "default": "no"
+      },
+      {
+        "name": "Male",
+        "gender": "Male",
+        "default": "no"
+      }
+    ]
+  },
+  {
+    "code": "vi-vn",
+    "info": [
+      {
+        "name": "Chi",
+        "gender": "Male",
+        "default": "yes"
+      }
+    ]
+  }
+]

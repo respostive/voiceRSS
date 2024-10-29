@@ -1,0 +1,115 @@
+:root {
+  --primary-color: #000;
+}
+
+body {
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  flex-direction: column;
+  color: #18D3FE;
+  align-items: center;
+  background-color: #0D1117;
+
+}
+
+textarea {
+  width: 50vw;
+  border: solid 1px white;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 20px;
+  background-color: #0E1A1F;
+}
+
+button {
+  width: 30vw;
+  border: 1px solid #ccc;
+  background-color: #00B8FB;
+  color: white;
+  height: 40px;
+  border-radius: 10px;
+}
+
+button:hover {
+  opacity: 0.3;
+}
+
+.audio {
+  background-color: #72E528;
+
+  width: 1200px;
+  height: 100px;
+  position: absolute;
+
+  bottom: 0;
+  align-items: center;
+  justify-content: center;
+  display: none;
+  transition: 0.5s;
+  /* animation: audioActive 1s; */
+}
+
+.audio__content {
+  width: 80%;
+}
+
+.audio.active {
+  display: flex;
+}
+
+.audio__icon {
+  color: #ccc;
+  margin-left: 20px;
+  font-size: 40px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.audio__icon:hover {
+  color: var(--primary-color);
+}
+
+/* @keyframes audioActive {
+  form {
+    bottom: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    bottom: 20%;
+    transform: translateY(0);
+  }
+} */
+
+.right {
+  display: flex;
+  flex-direction: column;
+}
+.right input {
+  width: 70%;
+}
+button {
+  background: linear-gradient(89.86deg, #a7ff1a, #82fac2, #47d4ff);
+  color: white; /* Màu chữ bên trong nút */
+  padding: 10px 20px; /* Đệm bên trong nút */
+  border: none; /* Loại bỏ đường viền mặc định */
+  border-radius: 5px; /* Bo góc */
+  cursor: pointer; /* Con trỏ chuột khi hover */
+}
+
+button:hover {
+  background-color: #72e528; /* Màu sắc khi hover */
+}
+
+/* Change the background color of the select dropdown */
+select#country-select {
+  background-color: #0D1116; /* Replace with your desired color */
+  color: white; /* Text color inside the dropdown */
+}
+
+/* Optionally style the options */
+select#country-select option {
+  background-color:  #0D1116; /* Replace with your desired color */
+  color: white; /* Text color inside the options */
+}
+
+/* edit thanh trượt
